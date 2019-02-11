@@ -1,0 +1,13 @@
+{% extends 'templates/base.html' %}
+
+{% block content %}
+    <div class="jumbotron" style="background-color: #D5FAFF !important;">
+        <h1 class="display-4">Welcome to Tele Tracker</h1>
+        <p class="lead">Tele Tracker is a simple <strong>movie</strong> and <strong>tv show</strong> tracker.</p>
+        <p>You can create lists of movies and tv shows to watch and categorise them to your personal liking.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="{{ url_for('routes.signup') }}" role="button">Sign up</a>
+        <hr class="my-4">
+        <p>Have an account? <a href="/app">Login here</a>.</p>
+    </div>
+{% endblock %}

@@ -1,0 +1,8 @@
+flask
+rdflib
+requests
+pymongo
+flask-cors
+flask-login
+passlib
+flask-wtf
